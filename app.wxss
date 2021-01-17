@@ -12,3 +12,9 @@
 .flex {
   display: flex;
 }
+
+.box {
+  width: 100%;
+  padding: 0 36rpx;
+  box-sizing: border-box;
+}

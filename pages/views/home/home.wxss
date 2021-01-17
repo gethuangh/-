@@ -44,7 +44,7 @@
     line-height: 60rpx;
     border-radius: 30rpx;
     box-shadow: 0px 0px 8rpx 0px rgba(0, 0, 0, 0.18);
-    padding: 0 50rpx;
+    padding: 0 60rpx;
     font-size: 28rpx;
     box-sizing: border-box;
 }
@@ -263,11 +263,15 @@
     margin-top: 10rpx;
 }
 
+.tab-right-text text {
+    margin-right: 10rpx;
+}
+
 /* 选中的样式 */
 .tab-action::after {
     content: "";
     position: absolute;
-    bottom: -1rpx;
+    bottom: -2rpx;
     left: 0;
     width: 120rpx;
     height: 14rpx;

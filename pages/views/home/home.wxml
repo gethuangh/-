@@ -7,10 +7,10 @@
                 <image class="" src="../../images/xia.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload=""></image>
             </view>
             <view class="home-input-input">
-                <input type="text"></input>
+                <input type="text" placeholder="请输入关键词"></input>
                 <image class="" src="../../images/ss.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload=""></image>
             </view>
-            <view class="home-input-code">
+            <view class="home-input-code" bind:tap="code">
                 <image class="" src="../../images/ewm.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload=""></image>
             </view>
         </view>

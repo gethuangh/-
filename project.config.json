@@ -31,12 +31,27 @@
 		"conversation": {
 			"list": []
 		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
 		"game": {
 			"currentL": -1,
 			"list": []
 		},
-		"miniprogram": {
+		"gamePlugin": {
+			"current": -1,
 			"list": []
+		},
+		"miniprogram": {
+			"list": [
+				{
+					"id": -1,
+					"name": "商圈",
+					"pathName": "pages/views/area/area",
+					"scene": null
+				}
+			]
 		}
 	}
 }

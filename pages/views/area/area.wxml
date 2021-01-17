@@ -1,2 +1,44 @@
-<!--pages/views/area/area.wxml-->
-<text>pages/views/area/area.wxml</text>
+<view class="box">
+    <!-- 搜索部分 -->
+    <view class="seearchBox flex">
+        <text class="search">搜索</text>
+        <view class="home-input-input flex">
+            <input type="text" placeholder="请输入关键词"></input>
+            <image class="" src="../../images/ss.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload=""></image>
+        </view>
+    </view>
+    <!-- 推荐商家 -->
+    <view class="merchant">
+        <view style="width:140rpx;">
+            <view class="area-title">推荐商家</view>
+        </view>
+        <view class="merchant-img">
+            <image class="" src="../../images/cs.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload=""></image>
+            <view class="merchant-cont">
+                <view class="merchant-cont-name">一见如面</view>
+                <view class="merchant-cont-text">Q弹好面就选一见如面。做特色的面馆，经典好味道。</view>
+            </view>
+        </view>
+    </view>
+    <!-- 综合推荐 -->
+    <view class="synthesize">
+        <view class="synthesize-top flex">
+            <view class="synt flex">
+                <view class="synts area-title">综合推荐</view>
+                <image src="../../images/xia.png" />
+            </view>
+            <view class="synt flex">
+                <view class="synts">距离</view>
+                <image src="../../images/xia.png" />
+            </view>
+            <view class="synt flex">
+                <view class="synts">热度</view>
+                <image src="../../images/xia.png" />
+            </view>
+        </view>
+        <view class="synthesize-cont">
+            <view class="synthesize-cont-left"></view>
+            <view class="synthesize-cont-right"></view>
+        </view>
+    </view>
+</view>
