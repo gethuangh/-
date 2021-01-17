@@ -1,0 +1,126 @@
+<view class="home">
+    <view class="home-box">
+        <!-- 输入框 -->
+        <view class="home-input flex">
+            <view class="home-input-gps">
+                <text class="" selecbtnle="false" space="false" decode="false">广州</text>
+                <image class="" src="../../images/xia.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload=""></image>
+            </view>
+            <view class="home-input-input">
+                <input type="text"></input>
+                <image class="" src="../../images/ss.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload=""></image>
+            </view>
+            <view class="home-input-code">
+                <image class="" src="../../images/ewm.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload=""></image>
+            </view>
+        </view>
+        <!-- 轮播图 -->
+        <view class="home-swiper">
+            <swiper indicator-dots="true" class="swiper">
+                <swiper-item>
+                    <image src="../../images/gy.png" class="slide-image" mode="aspectFill" />
+                </swiper-item>
+                <swiper-item>
+                    <image src="../../images/sq.png" class="slide-image" mode="aspectFill" />
+                </swiper-item>
+            </swiper>
+        </view>
+        <!-- 按钮 -->
+        <view class="home-btn flex">
+            <view class="home-btn-item">
+                <view class="btn-item-img">
+                    <image class="" src="../../images/gy.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload=""></image>
+                </view>
+                <view class="btn-item-text">公益</view>
+            </view>
+            <view class="home-btn-item">
+                <view class="btn-item-img1">
+                    <image class="" src="../../images/sq.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload=""></image>
+                </view>
+                <view class="btn-item-text">商圈</view>
+            </view>
+            <view class="home-btn-item">
+                <view class="btn-item-img2">
+                    <image class="" src="../../images/sc.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload=""></image>
+                </view>
+                <view class="btn-item-text">商场</view>
+            </view>
+            <view class="home-btn-item">
+                <view class="btn-item-img3">
+                    <image class="" src="../../images/all.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload=""></image>
+                </view>
+                <view class="btn-item-text">全部</view>
+            </view>
+        </view>
+        <!-- 广告 -->
+        <view class="home-adver">
+            <view class="home-adver-img">
+                <image src="../../images/sq.png" class="slide-image" mode="aspectFill" />
+            </view>
+            <view class="home-adver-text">
+                <text>凝聚爱心用户：</text>
+                <text class="adver-num">2,545,458,526</text>
+                <text>次捐献</text>
+            </view>
+        </view>
+    </view>
+    <!-- 新闻资讯 -->
+    <view class="home-news">
+        <view class="home-box">
+            <view class="home-news-top flex">
+                <view class="news-title">新闻资讯</view>
+                <view class="news-more">
+                    更多>
+                    <!-- <image src="../../images/" /> -->
+                </view>
+            </view>
+        </view>
+        <view class="home-news-box ">
+            <scroll-view class="scroll-view_H flex" scroll-x="true" style="width: 100%">
+                <view class="news-more-item" wx:for="{{3}}">
+                    <image src="../../images/gy.png" class="slide-image" mode="aspectFill" />
+                    <view class="news-textbox">
+                        <view class="news-text-title">大数据全面解析：重庆下一个新兴商业都市大数据全面解析：重庆下一个新兴商业都市</view>
+                        <view class="news-text flex">
+                            <text class="">赢商网重庆站</text>
+                            <text class="">|</text>
+                            <text class="">3小时前</text>
+                        </view>
+                    </view>
+                </view>
+            </scroll-view>
+        </view>
+    </view>
+    <!-- 企业资讯btn -->
+    <view class="home-box">
+        <view class="home-tabBox">
+            <view class="home-tab-title flex">
+                <view class="{{currentIndex==0?'tab-title-text tab-action':'tab-title-text'}}" data-index="0" bind:tap="titleClick">
+                    企业资讯
+                </view>
+                <view class="{{currentIndex==1?'tab-title-text tab-action':'tab-title-text'}}" data-index="1" bind:tap="titleClick">
+                    商家动态
+                </view>
+                <view class="{{currentIndex==2?'tab-title-text tab-action':'tab-title-text'}}" data-index="2" bind:tap="titleClick">
+                    公益事业
+                </view>
+            </view>
+            <!-- 循环部分 -->
+            <view class="home-tab-item flex" wx:for="{{3}}">
+                <view class="tab-item-left">
+                    <image src="../../images/gy.png" class="slide-image" mode="aspectFill" />
+                </view>
+                <view class="tab-item-right">
+                    <view class="tab-right-title">
+                        上海五角场上海五角场合生汇将出席2020赢商网大会合生汇将出席2020赢商网大会 共赴新赛道
+                    </view>
+                    <view class="tab-right-text">
+                        <text>赢商网重庆站</text>
+                        <text>|</text>
+                        <text>3小时前</text>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

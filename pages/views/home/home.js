@@ -5,7 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    currentIndex:0
   },
 
   /**
@@ -27,7 +27,11 @@ Page({
   onShow: function () {
 
   },
-
+  titleClick: function (e) { 
+    this.setData({
+      currentIndex:e.target.dataset.index
+    })
+  },
   /**
    * 生命周期函数--监听页面隐藏
    */
