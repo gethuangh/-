@@ -2,7 +2,9 @@
   "pages": [
     "pages/views/home/home",
     "pages/views/area/area",
-    "pages/views/my/my"
+    "pages/views/my/my",
+    "pages/views/shopDetails/shopDetails",
+    "pages/views/infoDetailss/infoDetailss"
   ],
   "window": {
     "backgroundTextStyle": "light",

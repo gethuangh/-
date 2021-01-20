@@ -1,11 +1,11 @@
-// pages/views/area/area.js
+// pages/views/infoDetailss/infoDetailss.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    brief:false
+    inputShow: false,
   },
 
   /**
@@ -28,23 +28,16 @@ Page({
   onShow: function () {
 
   },
-  briefShow: function (e) {
-    if (e.currentTarget.dataset.index == this.data.indexs) {
-      this.setData({
-        indexs:9999999999999999
-      })
-    } else {
-      this.setData({
-        indexs:e.currentTarget.dataset.index
-      })
-    }
-    console.log(this.data.indexs)
+  inputShowFun: function () { 
+    this.setData({
+      inputShow: !this.data.inputShow,
+    })
   },
-  toShopDetails: function () { 
-   
-    wx.navigateTo({
-      url: '../shopDetails/shopDetails?id=1'
-   })
+  bindblurFun() { 
+    console.log("失去焦点了")
+    this.setData({
+      inputShow: !this.data.inputShow,
+    })
   },
   /**
    * 生命周期函数--监听页面隐藏

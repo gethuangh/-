@@ -1,2 +1,93 @@
-<!--pages/views/my/my.wxml-->
-<text>pages/views/my/my.wxml</text>
+<!-- 我的 -->
+<view class="my-box box">
+    <view class="my-user flex ">
+        <view class="my-user-left flex">
+            <view class="user-img">
+                <image class="" src="../../images/tx.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload=""></image>
+                <view class="user-id">联盟商家</view>
+                <!-- <view class="user-ids">普通会员</view> -->
+            </view>
+            <view class="user-name">
+                <view class="user-names">用户昵称</view>
+                <view class="user-nametext">后台统一个性签名</view>
+            </view>
+        </view>
+        <view class="my-user-right flex">
+            <image class="" src="../../images/qhyh.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload=""></image>
+            <text>切换用户</text>
+        </view>
+    </view>
+    <view>
+        <view class="my-data">
+            <view class="data-top flex">
+                <view class="data-top-left">
+                    <view class="data-top-left-title">累计收益(元)</view>
+                    <view class="data-top-left-num">0.0000</view>
+                </view>
+                <view class="data-top-right">
+                    <image src="../../images/qdyl.png" />
+                </view>
+            </view>
+            <view class="data-cont flex">
+                <view class="data-cont-red">
+                    <view class="data-cont-top">红积分</view>
+                    <view class="data-cont-num">0.0000</view>
+                </view>
+                <view class="data-cont-white">
+                    <view class="data-cont-top">白积分</view>
+                    <view class="data-cont-num">0.0000</view>
+                </view>
+            </view>
+            <view class="data-bot flex">
+                <view class="data-bot-left">今日转换速率:  2.3149%</view>
+                <view class="data-bot-right">库存积分></view>
+            </view>
+        </view>
+    </view>
+    <!-- 我的账户 -->
+    <view class="my-account">
+        <view class="account-title">我的账户</view>
+        <view class="account-cont flex">
+            <view class="account-cont-item">
+                <image class="xfhk" src="../../images/xfhk.png" />
+                <view>消费回馈</view>
+            </view>
+            <view class="account-cont-item">
+                <image class="xfjl" src="../../images/xfjl.png" />
+                <view>消费记录</view>
+            </view>
+            <view class="account-cont-item">
+                <image class="txjl" src="../../images/txjl.png" />
+                <view>提现记录</view>
+            </view>
+            <view class="account-cont-item">
+                <image class="wdqb" src="../../images/wdqb.png" />
+                <view>我的钱包</view>
+            </view>
+        </view>
+    </view>
+    <!-- 更多功能 -->
+    <view class="my-more">
+        <view class="my-account">
+            <view class="account-title">更多功能</view>
+            <view class="account-cont flex">
+                <view class="account-cont-item">
+                    <image class="yqyl" src="../../images/yqyl.png" />
+                    <view>邀请有礼</view>
+                </view>
+                <view class="account-cont-item">
+                    <image class="wdcy" src="../../images/wdcy.png" />
+                    <view>我的成员</view>
+                </view>
+                <view class="account-cont-item">
+                    <image class="wdsc" src="../../images/wdsc.png" />
+                    <view>我的收藏</view>
+                </view>
+                <view class="account-cont-item">
+                    <image class="sz" src="../../images/sz.png" />
+                    <view>设置</view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

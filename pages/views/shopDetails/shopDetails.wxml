@@ -1,0 +1,86 @@
+<!-- 商铺详情 -->
+<view class="shopDetails">
+    <view class="shopDetails-top">
+        <image class="" src="../../images/cs.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload=""></image>
+    </view>
+    <view class="shopDetails-photo flex">
+        <view class="photo-circle"></view>
+        356
+    </view>
+    <view class="shopDetails-cont ">
+        <view class="shopDetails-cont-card">
+            <view class="cont-card-title flex">
+                <image class="rmtj" src="../../images/rmtj.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload=""></image>
+                <view class="card-title-item">
+                    <image src="../../images/ok.png" />
+                    有停车位
+                </view>
+                <view class="card-title-item">
+                    <image src="../../images/ok.png" />
+                    行李寄存
+                </view>
+                <view class="card-title-item">
+                    <image src="../../images/ok.png" />
+                    WIFI覆盖
+                </view>
+            </view>
+            <view class="cont-card-cont">
+                <view class="card-cont-name">上海静安瑞吉酒店(南京西路1008号)</view>
+                <view class="card-cont-inro flex">
+                    <view class="card-cont-inro-left flex">
+                        <view class="inro-left">近地铁</view>
+                        <view class="inro-left">奢华</view>
+                    </view>
+                    <view class="card-cont-inro-right flex">
+                        <view class="inro-right-item flex">
+                            <image class="dh" src="../../images/dh.png" />
+                            电话
+                        </view>
+                        <view class="inro-right-item flex">
+                            <image class="dz" src="../../images/dzs.png" />
+                            点赞
+                        </view>
+                        <view class="inro-right-item flex">
+                            <image class="fx" src="../../images/fx.png" />
+                            分享
+                        </view>
+                    </view>
+                </view>
+                <view class="cont-card-comment flex">
+                    <view class="card-comment-left flex">
+                        <view class="coment-score">4.5</view>
+                        分
+                        <view class="coment-text">不错</view>
+                        <view class="coment-text">很有格调</view>
+                    </view>
+                    <view class="card-comment-right flex">
+                        <view class="commment-right-text">2635条评论</view>
+                        <image src="../../images/you.png" />
+                    </view>
+                </view>
+                <view class="cont-card-gps flex">
+                    <view class="card-gps-left">
+                        <view class="gps-left-top">静安寺丨南京西路1008号</view>
+                        <view class="gps-left-bot flex">
+                            <image src="../../images/gy.png" />
+                            <view>距南京西路地铁站-1号口步行500米，约8分钟</view>
+                        </view>
+                    </view>
+                    <view class="card-gps-right">
+                        <image src="../../images/dt.png" />
+                        <view>地图</view>
+                    </view>
+                </view>
+            </view>
+        </view>
+        <view class="box">
+            <view class="synts area-title">店长推荐</view>
+            <view class="comm-itembox flex">
+                <view class="comm-item" wx:for="{{3}}">
+                    <image src="../../images/cs.png" />
+                    <view class="comm-item-text">双人大床房</view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

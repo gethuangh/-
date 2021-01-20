@@ -1,3 +1,4 @@
+<!-- 商圈 -->
 <view class="box">
     <!-- 搜索部分 -->
     <view class="seearchBox flex">
@@ -9,7 +10,7 @@
     </view>
     <!-- 推荐商家 -->
     <view class="merchant">
-        <view style="width:140rpx;">
+        <view style="width:145rpx;">
             <view class="area-title">推荐商家</view>
         </view>
         <view class="merchant-img">
@@ -36,9 +37,42 @@
                 <image src="../../images/xia.png" />
             </view>
         </view>
-        <view class="synthesize-cont">
-            <view class="synthesize-cont-left"></view>
-            <view class="synthesize-cont-right"></view>
+        <view class="synthesize-cont flex">
+            <view class="synthesize-cont-item" wx:for="{{4}}" style="{{indexs!=index?'height:467rpx':''}}" bind:tap="toShopDetails">
+                <view class="synthesize-item-top">
+                    <view class="synthesize-item-top-img">
+                        <image src="../../images/cs.png" />
+                        <view class="synthesize-item-top-distance">
+                            <image src="../../images/cs.png" />
+                            <view class="distance-text">
+                                <text>距离</text>
+                                <text>|</text>
+                                <text>1.4km</text>
+                            </view>
+                        </view>
+                    </view>
+                </view>
+                <view class="synthesize-item-cont">
+                    <view class="synthesize-item-name">复古水果店</view>
+                    <view class="synthesize-item-icon flex">
+                        <view class="synthesize-icon-box jj" bind:tap="briefShow" data-index="{{index}}">
+                            <image src="../../images/jj.png" />
+                            <text>简介</text>
+                        </view>
+                        <view class="synthesize-icon-box dz" bind:tap="clickPraise">
+                            <image src="../../images/dz.png" />
+                            <text>4232</text>
+                        </view>
+                        <view class="synthesize-icon-box scs" bind:tap="enshrinee">
+                            <image src="../../images/scs.png" />
+                            <text>4232</text>
+                        </view>
+                    </view>
+                    <view class="synthesize-item-text" wx:if="{{indexs==index}}">
+                        店铺与多家库尔勒零售商和代理商建立了长期稳定的合作关系，品种齐全、价格合理，企业实力雄厚，重信用、守合同、保证产品质量
+                    </view>
+                </view>
+            </view>
         </view>
     </view>
 </view>

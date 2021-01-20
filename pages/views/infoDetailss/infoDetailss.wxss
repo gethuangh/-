@@ -1,0 +1,181 @@
+.info-title {
+    font-size: 44rpx;
+    font-weight: 600;
+    color: #000000;
+    margin-top: 35rpx;
+}
+
+.info-user {
+    margin-top: 40rpx;
+    justify-content: space-between;
+}
+
+.user-img {
+    width: 81rpx;
+    height: 81rpx;
+    border-radius: 50%;
+    margin-right: 19rpx;
+}
+
+.user-name {
+    font-size: 30rpx;
+    font-weight: 600;
+    color: #000000;
+}
+
+.user-time {
+    font-size: 24rpx;
+    color: #999999;
+}
+
+.info-user-right {
+    font-size: 24rpx;
+    color: #999999;
+    margin-top: 20rpx;
+    overflow: hidden;
+}
+
+.info-user-right>image {
+    width: 33rpx;
+    height: 23rpx;
+    margin-right: 4rpx;
+    margin-top: 6rpx;
+}
+
+.info-comment {
+    margin-top: 122rpx;
+}
+
+.info-comment-top {
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.comment-num {
+    font-size: 22rpx;
+    font-weight: 400;
+    margin-left: 14rpx;
+    margin-top: 6rpx;
+    color: #000000;
+}
+
+.comment-fx>image {
+    width: 23rpx;
+    height: 24rpx;
+    margin-top: 5rpx;
+    margin-right: 10rpx;
+}
+
+.comment-fx {
+    font-size: 22rpx;
+    font-weight: 400;
+    color: #000000;
+}
+
+.comment-dz {
+    font-size: 22rpx;
+    font-weight: 400;
+    color: #000000;
+}
+
+.comment-dz>image {
+    width: 27rpx;
+    height: 24rpx;
+    margin-top: 4rpx;
+    margin-right: 4rpx;
+}
+
+.info-comment-text {
+    margin-top: 69rpx;
+}
+
+.text-item-left>image {
+    width: 81rpx;
+    height: 81rpx;
+    border-radius: 50%;
+}
+
+.text-item-right {
+    margin-left: 16rpx;
+}
+
+.item-right-name {
+    font-size: 24rpx;
+    font-weight: 400;
+    color: #FFC000;
+}
+
+.item-right-text {
+    margin-top: 10rpx;
+    font-size: 30rpx;
+    font-weight: 400;
+    color: #000000;
+}
+
+.item-right-time {
+    margin-top: 16rpx;
+    font-size: 22rpx;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    color: #999999;
+}
+
+.comment-text-item {
+    margin-bottom: 59rpx;
+}
+
+.info-inputbox {
+    height: 71rpx;
+    line-height: 71rpx;
+    background: #F4F4F4;
+    border-radius: 36rpx;
+    font-size: 32rpx;
+    font-weight: 500;
+    color: #666666;
+    text-align: center;
+}
+
+.info-input {
+    height: 71rpx;
+    line-height: 71rpx;
+    background: #F4F4F4;
+    border-radius: 36rpx;
+    font-size: 32rpx;
+    font-weight: 500;
+    color: #666666;
+    padding: 10rpx 30rpx 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* 标题公共部分 */
+.area-title {
+    font-size: 32rpx;
+    font-weight: 600;
+    color: #000000;
+    position: relative;
+    letter-spacing: 4rpx;
+}
+
+/* 公共标题下面的样式 */
+.area-title::after {
+    content: "";
+    position: absolute;
+    bottom: -2rpx;
+    left: 0;
+    width: 85%;
+    height: 14rpx;
+    background: linear-gradient(90deg, #FECB2D 0%, #FFFFFF 100%);
+    border-radius: 7rpx;
+    opacity: .8;
+    z-index: -1;
+}

@@ -1,0 +1,53 @@
+<!-- 资讯详情 -->
+<view class="info box">
+    <view class="info-title">虹桥商务区商业游记</view>
+    <view class="info-user flex">
+        <view class="info-user-left flex">
+            <image class="user-img" src="../../images/cs.png" />
+            <view class="user-left-cont">
+                <view class="user-name">发布者昵称</view>
+                <view class="user-time">3小时前</view>
+            </view>
+        </view>
+        <view class="info-user-right flex">
+            <image src="../../images/yj.png" />
+            <view>阅读9万</view>
+        </view>
+    </view>
+    <!-- 内容区域 -->
+    <view class="info-cont"></view>
+    <view class="info-comment">
+        <view class="info-comment-top flex">
+            <view class="flex">
+                <view class="area-title" style="width:148rpx">热门评论</view>
+                <view class="comment-num">(999+)</view>
+            </view>
+            <view class="comment-dz flex">
+                <image src="../../images/dzs.png" />
+                <view>2556</view>
+            </view>
+            <view class="comment-fx flex">
+                <image src="../../images/fx.png" />
+                <view>分享</view>
+            </view>
+        </view>
+        <view class="info-comment-text">
+            <view class="comment-text-item flex" wx:for="{{3}}">
+                <view class="text-item-left">
+                    <image src="../../images/cs.png" />
+                </view>
+                <view class="text-item-right">
+                    <view class="item-right-name">用户昵称</view>
+                    <view class="item-right-text">错落感、美陈的布置等，创造了“城市丛林”的氛围。</view>
+                    <view class="item-right-time">18小时前发布</view>
+                </view>
+            </view>
+        </view>
+        <view class="info-comment-input">
+            <view class="info-inputbox" bind:tap="inputShowFun" wx:if="{{!inputShow}}">发表评论</view>
+            <view class="info-input" wx:if="{{inputShow}}">
+                <input focus bindblur="bindblurFun" />
+            </view>
+        </view>
+    </view>
+</view>

@@ -44,7 +44,13 @@ Page({
       // 接口调用结束的回调函数（调用成功、失败都会执行）
       complete: ()=>{}
     });
-   },
+  },
+  toInfoDetailss: function () { 
+   
+    wx.navigateTo({
+      url: '../infoDetailss/infoDetailss?id=1'
+   })
+  },
   /**
    * 生命周期函数--监听页面显示
    */

@@ -49,6 +49,27 @@
 					"id": -1,
 					"name": "商圈",
 					"pathName": "pages/views/area/area",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "我的",
+					"pathName": "pages/views/my/my",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "商铺详情",
+					"pathName": "pages/views/shopDetails/shopDetails",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "资讯详情",
+					"pathName": "pages/views/infoDetailss/infoDetailss",
 					"scene": null
 				}
 			]

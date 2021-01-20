@@ -278,4 +278,5 @@
     background: linear-gradient(90deg, #FECB2D 0%, #FFFFFF 100%);
     border-radius: 7rpx;
     opacity: .8;
+    z-index: -1;
 }

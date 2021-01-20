@@ -1,3 +1,4 @@
+<!-- 首页 -->
 <view class="home">
     <view class="home-box">
         <!-- 输入框 -->
@@ -106,7 +107,7 @@
                 </view>
             </view>
             <!-- 循环部分 -->
-            <view class="home-tab-item flex" wx:for="{{3}}">
+            <view class="home-tab-item flex" wx:for="{{3}}" bind:tap="toInfoDetailss">
                 <view class="tab-item-left">
                     <image src="../../images/gy.png" class="slide-image" mode="aspectFill" />
                 </view>
