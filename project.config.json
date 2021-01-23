@@ -70,6 +70,48 @@
 					"id": -1,
 					"name": "资讯详情",
 					"pathName": "pages/views/infoDetailss/infoDetailss",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "消费回馈",
+					"pathName": "pages/views/consumeFeedback/consumeFeedback",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "我的钱包",
+					"pathName": "pages/views/myWallet/myWallet",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "设置",
+					"pathName": "pages/views/setUser/setUser",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "库存白积分",
+					"pathName": "pages/views/repertoryInteg/repertoryInteg",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "白积分获取记录",
+					"pathName": "pages/views/whiteGetrecord/whiteGetrecord",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "红积分获取记录",
+					"pathName": "pages/views/redGetRecord/redGetRecord",
 					"scene": null
 				}
 			]

@@ -4,7 +4,13 @@
     "pages/views/area/area",
     "pages/views/my/my",
     "pages/views/shopDetails/shopDetails",
-    "pages/views/infoDetailss/infoDetailss"
+    "pages/views/infoDetailss/infoDetailss",
+    "pages/views/consumeFeedback/consumeFeedback",
+    "pages/views/myWallet/myWallet",
+    "pages/views/setUser/setUser",
+    "pages/views/repertoryInteg/repertoryInteg",
+    "pages/views/whiteGetrecord/whiteGetrecord",
+    "pages/views/redGetRecord/redGetRecord"
   ],
   "window": {
     "backgroundTextStyle": "light",

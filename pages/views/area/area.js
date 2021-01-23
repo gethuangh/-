@@ -28,6 +28,8 @@ Page({
   onShow: function () {
 
   },
+
+  // 输入框是否显示
   briefShow: function (e) {
     if (e.currentTarget.dataset.index == this.data.indexs) {
       this.setData({
@@ -40,6 +42,8 @@ Page({
     }
     console.log(this.data.indexs)
   },
+
+  // 去商铺详情
   toShopDetails: function () { 
    
     wx.navigateTo({

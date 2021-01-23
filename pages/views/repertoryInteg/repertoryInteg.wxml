@@ -1,0 +1,39 @@
+<view class="repertoryInteg box">
+    <!-- 盒模型 -->
+    <view class="consume-box flex" style="margin-top:20rpx;">
+        <view class="consume-left">
+            <view class="consume-top">库存白积分</view>
+            <view class="consume-num">
+                <text>12658.0000</text>
+            </view>
+        </view>
+        <view class="consume-right">
+            <view class="consume-right-cont flex">
+                <image src="../../images/wallet.png" />
+                <view>充值</view>
+            </view>
+        </view>
+    </view>
+    <!-- 充值记录 -->
+    <view class="repertory-record">
+        <view class="record-box">
+            <view class="record-top">本月</view>
+            <view class="record-cont">
+                <view class="record-item flex" wx:for="{{7}}">
+                    <view class="record-item-left flex">
+                        <view class="record-item-img">
+                            <image src="{{index%2==0?'../../images/huazhuan.png':'../../images/chongzhi.png'}}" />
+                        </view>
+                        <view class="record-left-text">
+                            <view class="record-left-num">+1000</view>
+                            <view class="record-left-ts">转账成功</view>
+                        </view>
+                    </view>
+                    <view class="record-item-right">
+                        <view class="record-right-time">2020-03-02</view>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

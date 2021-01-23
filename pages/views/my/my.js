@@ -21,7 +21,33 @@ Page({
   onReady: function () {
 
   },
+  // 去消费回馈
+  toConsumeFeedbck: function () {
 
+    wx.navigateTo({
+      url: '../consumeFeedback/consumeFeedback?id=1'
+    })
+  },
+  // 去我的钱包
+  toMyWallet: function () {
+
+    wx.navigateTo({
+      url: '../myWallet/myWallet?id=1'
+    })
+  },
+  // 去设置
+  toSetUser: function () {
+
+    wx.navigateTo({
+      url: '../setUser/setUser?id=1'
+    })
+  },
+  // 去库存积分
+  toRepertory: function () {
+    wx.navigateTo({
+      url: '../repertoryInteg/repertoryInteg?id=1'
+    })
+  },
   /**
    * 生命周期函数--监听页面显示
    */

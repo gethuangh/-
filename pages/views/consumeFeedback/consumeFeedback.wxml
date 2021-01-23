@@ -1,0 +1,66 @@
+<!-- 消费回馈 -->
+<view class="consume box">
+    <!-- 白积分部分 -->
+    <view class="whitebox">
+        <!-- 盒模型 -->
+        <view class="consume-box flex">
+            <view class="consume-left">
+                <view class="consume-top">白积分余额</view>
+                <view class="consume-num">12658.0000</view>
+                <view class="consume-bot">今日转换速率:  2.3149%</view>
+            </view>
+            <view class="consume-right">
+                <view class="consume-right-cont flex">
+                    <image src="../../images/zhuanzhang.png" />
+                    <view>转账</view>
+                </view>
+            </view>
+        </view>
+    </view>
+    <!-- 红积分部分 -->
+    <view class="redbox">
+        <!-- 盒模型 -->
+        <view class="consume-box flex">
+            <view class="consume-left">
+                <view class="consume-top">红积分余额</view>
+                <view class="consume-num">13658.0000</view>
+                <view class="consume-bot">今日转换速率:  2.3149%</view>
+            </view>
+            <view class="consume-right">
+                <view class="consume-right-cont flex">
+                    <image src="../../images/zhuanzhang.png" />
+                    <view>转账</view>
+                </view>
+            </view>
+        </view>
+    </view>
+    <!-- 商业账户余额部分 -->
+    <view class="redbox">
+        <!-- 盒模型 -->
+        <view class="consume-box flex">
+            <view class="consume-left">
+                <view class="consume-top">商业账户余额部分</view>
+                <view class="consume-num">14658.0000</view>
+                <view class="consume-bot">今日转换速率:  2.3149%</view>
+            </view>
+            <view class="consume-right">
+                <view class="consume-right-cont flex">
+                    <image src="../../images/zhuanzhang.png" />
+                    <view>转账</view>
+                </view>
+            </view>
+        </view>
+    </view>
+    <!-- 其余部分 -->
+    <view class="consume-remain flex">
+        <view class="consume-remain-cont">
+            <view class="remain-top">今日新增积分</view>
+            <view class="remain-bot">5000.0000</view>
+        </view>
+        <view class="consume-remain-cont">
+            <view class="remain-top">明日待释放</view>
+            <view class="remain-bot">5000.0000</view>
+        </view>
+    </view>
+    <view class="consume-text">注：白积分超过3000才可释放</view>
+</view>

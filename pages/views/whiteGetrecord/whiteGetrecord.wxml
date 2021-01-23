@@ -1,0 +1,25 @@
+<!-- 白积分获取记录 -->
+<view class="whiteGetrecord box">
+    <!-- 充值记录 -->
+    <view class="repertory-record" wx:for="{{3}}">
+        <view class="record-box">
+            <view class="record-top">本月</view>
+            <view class="record-cont">
+                <view class="record-item flex" wx:for="{{4}}">
+                    <view class="record-item-left flex">
+                        <view class="record-item-img">
+                            <image src="{{index%2==0?'../../images/tghq.png':'../../images/xfhq.png'}}" />
+                        </view>
+                        <view class="record-left-text">
+                            <view class="record-left-num">+1000</view>
+                            <view class="record-left-ts">转账成功</view>
+                        </view>
+                    </view>
+                    <view class="record-item-right">
+                        <view class="record-right-time">2020-03-02</view>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

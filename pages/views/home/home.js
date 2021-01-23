@@ -45,6 +45,7 @@ Page({
       complete: ()=>{}
     });
   },
+  // 去资讯详情
   toInfoDetailss: function () { 
    
     wx.navigateTo({

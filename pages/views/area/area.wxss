@@ -82,7 +82,7 @@
 
 /* 综合推荐 */
 .synthesize {
-    margin-top: 99rpx;
+    margin-top: 69rpx;
 }
 
 .synthesize-top image {
@@ -180,12 +180,12 @@
 .synthesize-item-name {
     margin-left: 16rpx;
     font-size: 22rpx;
-    font-weight: 500;
+    font-weight: 600;
     color: #000000;
 }
 
 .synthesize-item-icon {
-    margin-top: 20rpx;
+    margin-top: 10rpx;
 }
 
 .synthesize-icon-box {

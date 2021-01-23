@@ -1,10 +1,12 @@
 <!-- 商铺详情 -->
 <view class="shopDetails">
     <view class="shopDetails-top">
-        <image class="" src="../../images/cs.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload=""></image>
+        <image class="" src="../../images/infobj1.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload=""></image>
     </view>
     <view class="shopDetails-photo flex">
-        <view class="photo-circle"></view>
+        <view class="photo-circle">
+            <image src="../../images/xj.png" />
+        </view>
         356
     </view>
     <view class="shopDetails-cont ">
@@ -59,10 +61,13 @@
                     </view>
                 </view>
                 <view class="cont-card-gps flex">
+                    <view class="gps-imgbj">
+                        <image src="../../images/infobj.png" />
+                    </view>
                     <view class="card-gps-left">
                         <view class="gps-left-top">静安寺丨南京西路1008号</view>
                         <view class="gps-left-bot flex">
-                            <image src="../../images/gy.png" />
+                            <image src="../../images/infodt.png" />
                             <view>距南京西路地铁站-1号口步行500米，约8分钟</view>
                         </view>
                     </view>
@@ -77,7 +82,7 @@
             <view class="synts area-title">店长推荐</view>
             <view class="comm-itembox flex">
                 <view class="comm-item" wx:for="{{3}}">
-                    <image src="../../images/cs.png" />
+                    <image src="../../images/chuang.png" />
                     <view class="comm-item-text">双人大床房</view>
                 </view>
             </view>

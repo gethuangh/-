@@ -17,12 +17,9 @@
         </view>
         <!-- 轮播图 -->
         <view class="home-swiper">
-            <swiper indicator-dots="true" class="swiper">
-                <swiper-item>
-                    <image src="../../images/gy.png" class="slide-image" mode="aspectFill" />
-                </swiper-item>
-                <swiper-item>
-                    <image src="../../images/sq.png" class="slide-image" mode="aspectFill" />
+            <swiper indicator-dots="true" class="swiper swiper-box">
+                <swiper-item wx:for="{{3}}">
+                    <image src="../../images/homebj.png" class="slide-image" mode="aspectFill" />
                 </swiper-item>
             </swiper>
         </view>
@@ -56,7 +53,7 @@
         <!-- 广告 -->
         <view class="home-adver">
             <view class="home-adver-img">
-                <image src="../../images/sq.png" class="slide-image" mode="aspectFill" />
+                <image src="../../images/homegg.png" class="slide-image" mode="aspectFill" />
             </view>
             <view class="home-adver-text">
                 <text>凝聚爱心用户：</text>
@@ -71,15 +68,15 @@
             <view class="home-news-top flex">
                 <view class="news-title">新闻资讯</view>
                 <view class="news-more">
-                    更多>
-                    <!-- <image src="../../images/" /> -->
+                    更多
+                    <image src="../../images/you.png" />
                 </view>
             </view>
         </view>
         <view class="home-news-box ">
             <scroll-view class="scroll-view_H flex" scroll-x="true" style="width: 100%">
                 <view class="news-more-item" wx:for="{{3}}">
-                    <image src="../../images/gy.png" class="slide-image" mode="aspectFill" />
+                    <image src="../../images/homeitem.png" class="slide-image" mode="aspectFill" />
                     <view class="news-textbox">
                         <view class="news-text-title">大数据全面解析：重庆下一个新兴商业都市大数据全面解析：重庆下一个新兴商业都市</view>
                         <view class="news-text flex">
@@ -109,7 +106,7 @@
             <!-- 循环部分 -->
             <view class="home-tab-item flex" wx:for="{{3}}" bind:tap="toInfoDetailss">
                 <view class="tab-item-left">
-                    <image src="../../images/gy.png" class="slide-image" mode="aspectFill" />
+                    <image src="../../images/hometu.png" class="slide-image" mode="aspectFill" />
                 </view>
                 <view class="tab-item-right">
                     <view class="tab-right-title">

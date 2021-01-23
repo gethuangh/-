@@ -14,7 +14,7 @@
             <view class="area-title">推荐商家</view>
         </view>
         <view class="merchant-img">
-            <image class="" src="../../images/cs.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload=""></image>
+            <image class="" src="../../images/areabj.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload=""></image>
             <view class="merchant-cont">
                 <view class="merchant-cont-name">一见如面</view>
                 <view class="merchant-cont-text">Q弹好面就选一见如面。做特色的面馆，经典好味道。</view>
@@ -41,9 +41,9 @@
             <view class="synthesize-cont-item" wx:for="{{4}}" style="{{indexs!=index?'height:467rpx':''}}" bind:tap="toShopDetails">
                 <view class="synthesize-item-top">
                     <view class="synthesize-item-top-img">
-                        <image src="../../images/cs.png" />
+                        <image src="../../images/areaitem.png" />
                         <view class="synthesize-item-top-distance">
-                            <image src="../../images/cs.png" />
+                            <image src="../../images/gps.png" />
                             <view class="distance-text">
                                 <text>距离</text>
                                 <text>|</text>
@@ -55,15 +55,15 @@
                 <view class="synthesize-item-cont">
                     <view class="synthesize-item-name">复古水果店</view>
                     <view class="synthesize-item-icon flex">
-                        <view class="synthesize-icon-box jj" bind:tap="briefShow" data-index="{{index}}">
+                        <view class="synthesize-icon-box jj" catch:tap="briefShow" data-index="{{index}}">
                             <image src="../../images/jj.png" />
                             <text>简介</text>
                         </view>
-                        <view class="synthesize-icon-box dz" bind:tap="clickPraise">
+                        <view class="synthesize-icon-box dz" catch:tap="clickPraise">
                             <image src="../../images/dz.png" />
                             <text>4232</text>
                         </view>
-                        <view class="synthesize-icon-box scs" bind:tap="enshrinee">
+                        <view class="synthesize-icon-box scs" catch:tap="enshrinee">
                             <image src="../../images/scs.png" />
                             <text>4232</text>
                         </view>

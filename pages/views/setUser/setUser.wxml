@@ -1,0 +1,55 @@
+<!-- 设置 -->
+<view class="setUser box">
+    <!-- 盒子 -->
+    <view class="setUser-box ">
+        <view class="setUser-boxItem flex" bind:tap="alterHead">
+            <view class="setUser-left">头像</view>
+            <view class="setUser-right flex">
+                <image class="setUser-heads" src="{{tempFilePaths}}" />
+                <image class="setUser-you" src="../../images/you.png" />
+            </view>
+        </view>
+    </view>
+    <!-- 昵称部分 -->
+    <view class="setUser-box ">
+        <!-- 昵称 -->
+        <view class="setUser-boxItem flex">
+            <view class="setUser-left">昵称</view>
+            <view class="setUser-right flex">
+                <input class="setUser-text" value='{{name}}' />
+                <image class="setUser-you" src="../../images/you.png" />
+            </view>
+        </view>
+        <!-- 生日 -->
+        <view class="setUser-boxItem flex">
+            <view class="setUser-left">生日</view>
+            <view class="setUser-right flex">
+                <view class="setUser-text">
+                    <picker mode="date" value="{{date}}" start="1900-01-01" bindchange="bindDateChange">
+                        <input value='{{date}}' disabled placeholder='选择时间' />
+                    </picker>
+                </view>
+                <image class="setUser-you" src="../../images/you.png" />
+            </view>
+        </view>
+        <!-- 个性签名 -->
+        <view class="setUser-boxItem flex">
+            <view class="setUser-left">个性签名</view>
+            <view class="setUser-right flex">
+                <input class="setUser-text" value='{{text}}' />
+                <image class="setUser-you" src="../../images/you.png" />
+            </view>
+        </view>
+    </view>
+    <!-- 地址 -->
+    <view class="setUser-box ">
+        <view class="setUser-boxItem flex">
+            <view class="setUser-left">地址</view>
+            <view class="setUser-right flex">
+                <input class="setUser-text" value='{{dz}}' />
+                <image class="setUser-you" src="../../images/you.png" />
+            </view>
+        </view>
+    </view>
+</view>
+<view class="setUser-btn">退出登录</view>
