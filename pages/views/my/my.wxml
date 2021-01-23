@@ -52,11 +52,11 @@
                 <image class="xfhk" src="../../images/xfhk.png" />
                 <view>消费回馈</view>
             </view>
-            <view class="account-cont-item">
+            <view class="account-cont-item" bind:tap="toExpenseRecord">
                 <image class="xfjl" src="../../images/xfjl.png" />
                 <view>消费记录</view>
             </view>
-            <view class="account-cont-item">
+            <view class="account-cont-item" bind:tap="toTxRecord">
                 <image class="txjl" src="../../images/txjl.png" />
                 <view>提现记录</view>
             </view>
@@ -71,15 +71,15 @@
         <view class="my-account">
             <view class="account-title">更多功能</view>
             <view class="account-cont flex">
-                <view class="account-cont-item">
+                <view class="account-cont-item" bind:tap="toYqyl">
                     <image class="yqyl" src="../../images/yqyl.png" />
                     <view>邀请有礼</view>
                 </view>
-                <view class="account-cont-item">
+                <view class="account-cont-item" bind:tap="toMyMember">
                     <image class="wdcy" src="../../images/wdcy.png" />
                     <view>我的成员</view>
                 </view>
-                <view class="account-cont-item">
+                <view class="account-cont-item" bind:tap="toMySc">
                     <image class="wdsc" src="../../images/wdsc.png" />
                     <view>我的收藏</view>
                 </view>

@@ -1,0 +1,25 @@
+<!-- 消费记录 -->
+<view class="txRecord box">
+    <view class="txRecord-cont">
+        <view class="txRecord-item" wx:for="{{3}}">
+            <view class="txRecord-item-title flex">
+                <view class="txRecord-title-left">提现</view>
+                <view class="txRecord-title-right">- ¥100.00</view>
+            </view>
+            <view class="txRecord-item-time flex">
+                <view class="txRecord-item-left flex">
+                    <view style="{{index==1?'color:#30A83F':(index==2?'color:#1088F8':'')}}">
+                        {{index==1?'微信付款':(index==2?'支付宝付款':'付款')}}
+                    </view>
+                </view>
+                <view class="txRecord-item-right">2020-02-02  18:25:54</view>
+            </view>
+            <view class="txRecord-item-time flex">
+                <view class="txRecord-item-left flex">
+                    <view>订单状态</view>
+                </view>
+                <view class="txRecord-item-right">{{index==1?'已付款':'已退款'}}</view>
+            </view>
+        </view>
+    </view>
+</view>

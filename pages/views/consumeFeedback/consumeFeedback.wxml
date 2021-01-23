@@ -9,7 +9,7 @@
                 <view class="consume-num">12658.0000</view>
                 <view class="consume-bot">今日转换速率:  2.3149%</view>
             </view>
-            <view class="consume-right">
+            <view class="consume-right" bind:tap="toTransferPost">
                 <view class="consume-right-cont flex">
                     <image src="../../images/zhuanzhang.png" />
                     <view>转账</view>
@@ -26,7 +26,7 @@
                 <view class="consume-num">13658.0000</view>
                 <view class="consume-bot">今日转换速率:  2.3149%</view>
             </view>
-            <view class="consume-right">
+            <view class="consume-right" bind:tap="toTransferPost">
                 <view class="consume-right-cont flex">
                     <image src="../../images/zhuanzhang.png" />
                     <view>转账</view>
@@ -43,10 +43,11 @@
                 <view class="consume-num">14658.0000</view>
                 <view class="consume-bot">今日转换速率:  2.3149%</view>
             </view>
-            <view class="consume-right">
+            <view class="consume-right" bind:tap="toTxPost">
                 <view class="consume-right-cont flex">
-                    <image src="../../images/zhuanzhang.png" />
-                    <view>转账</view>
+                    <image src="../../images/wallet.png" />
+                    <!-- <image src="../../images/zhuanzhang.png" /> -->
+                    <view>提现</view>
                 </view>
             </view>
         </view>

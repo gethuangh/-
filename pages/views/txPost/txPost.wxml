@@ -1,0 +1,19 @@
+<!-- 提现 -->
+<view class="transferPost box">
+    <view class="transferPost-title">提现</view>
+    <view class="transferPost-cont flex">
+        <view class="transferPost-cont-name">￥</view>
+        <view class="transferPost-cont-inpt">
+            <input type="text" value="{{text}}" bindinput="textFun" placeholder="请输入转化量" placeholder-class="input-placeholder" />
+        </view>
+    </view>
+    <view class="transferPost-btn" bind:tap="transferPost">提交</view>
+</view>
+<!-- 弹窗 -->
+<view class="popUp" wx:if="{{popShow}}">
+    <view class="pop-cont">
+        <image src="../../images/ok2.png" />
+        <view class="pop-ok">申请提交成功！</view>
+        <view class="pop-text">请耐心等待工作人员审核</view>
+    </view>
+</view>

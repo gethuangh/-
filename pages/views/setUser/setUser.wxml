@@ -16,7 +16,7 @@
         <view class="setUser-boxItem flex">
             <view class="setUser-left">昵称</view>
             <view class="setUser-right flex">
-                <input class="setUser-text" value='{{name}}' />
+                <input class="setUser-text" bindinput="nameFun" value='{{name}}' />
                 <image class="setUser-you" src="../../images/you.png" />
             </view>
         </view>
@@ -36,7 +36,7 @@
         <view class="setUser-boxItem flex">
             <view class="setUser-left">个性签名</view>
             <view class="setUser-right flex">
-                <input class="setUser-text" value='{{text}}' />
+                <input class="setUser-text" bindinput="textFun" value='{{text}}' />
                 <image class="setUser-you" src="../../images/you.png" />
             </view>
         </view>
@@ -46,7 +46,7 @@
         <view class="setUser-boxItem flex">
             <view class="setUser-left">地址</view>
             <view class="setUser-right flex">
-                <input class="setUser-text" value='{{dz}}' />
+                <input class="setUser-text" bindinput="dzFun" value='{{dz}}' />
                 <image class="setUser-you" src="../../images/you.png" />
             </view>
         </view>

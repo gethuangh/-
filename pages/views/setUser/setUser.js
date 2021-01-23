@@ -9,7 +9,7 @@ Page({
     date: " ",
     name: "吃货小猪猪",
     text: "这是一条个性签名",
-    dz:"这是一个详细地址"
+    dz: "这是一个详细地址"
   },
 
   /**
@@ -33,27 +33,41 @@ Page({
 
   },
   // 修改名称
+  nameFun(e) {
+    // 把输入的值存起来
+    this.data.name = e.detail.value
+  },
 
-//  调用相册或相机
+  // 个性签名
+  textFun(e) {
+    // 把输入的值存起来
+    this.data.text = e.detail.value
+  },
+  // 地址
+  dzFun(e) {
+    // 把输入的值存起来
+    this.data.dz = e.detail.value
+  },
+  //  调用相册或相机
   alterHead() {
     let that = this
     wx.chooseImage({
       count: 1,
       sizeType: ['original', 'compressed'],
       sourceType: ['album', 'camera'],
-      success (res) {
+      success(res) {
         // tempFilePath可以作为img标签的src属性显示图片
         const tempFilePaths = res.tempFilePaths[0]
         console.log(tempFilePaths)
         that.setData({
-          tempFilePaths:tempFilePaths
+          tempFilePaths: tempFilePaths
         })
       }
     })
   },
-  
+
   // 修改日期
-   bindDateChange: function(e) {
+  bindDateChange: function (e) {
     console.log('picker发送选择改变，携带值为', e.detail.value)
     this.setData({
       date: e.detail.value

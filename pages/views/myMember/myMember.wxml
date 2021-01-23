@@ -1,0 +1,25 @@
+<!-- 我的成员 -->
+<view class="myMember box">
+    <view class="myMember-top flex">
+        <view>我的团队人数</view>
+        <view>43人</view>
+    </view>
+    <view class="myMember-yq">
+        <image src="../../images/yqhy.png" />
+        <view>邀请好友</view>
+    </view>
+    <view class="myMember-cont">
+        <view class="myMember-item flex" wx:for="{{3}}">
+            <view class="myMember-item-left flex">
+                <image src="../../images/cs.png" />
+                <view class="myMember-item-cont">
+                    <view class="myMember-item-name">用户昵称</view>
+                    <view class="myMember-item-text">个性签名个性签名个性签名</view>
+                </view>
+            </view>
+            <view class="myMember-item-right">
+                <view class="myMember-item-time">一周前邀请</view>
+            </view>
+        </view>
+    </view>
+</view>

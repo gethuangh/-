@@ -1,0 +1,31 @@
+<!-- 提现记录 -->
+<view class="txRecord box">
+    <view class="txRecord-top flex">
+        <view class="txRecord-top-left">提现记录 (元)</view>
+        <view class="txRecord-top-right">¥2465.00</view>
+    </view>
+    <view class="txRecord-cont">
+        <view class="txRecord-item" wx:for="{{3}}">
+            <view class="txRecord-item-title flex">
+                <view class="txRecord-title-left">提现</view>
+                <view class="txRecord-title-right">+ ¥100.00</view>
+            </view>
+            <view class="txRecord-item-time flex">
+                <view class="txRecord-item-left flex">
+                    <image src="../../images/time.png" />
+                    <view>申请时间</view>
+                </view>
+                <view class="txRecord-item-right">2020-02-02  18:25:54</view>
+            </view>
+            <view class="txRecord-item-time flex">
+                <view class="txRecord-item-left flex">
+                    <image src="../../images/ok1.png" />
+                    <view>申请状态</view>
+                </view>
+                <view class="txRecord-item-right" style="{{index==1?'color:#FE890B':''}}">
+                    {{index==1?'提现中':'已提现'}}
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

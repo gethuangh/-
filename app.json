@@ -10,7 +10,14 @@
     "pages/views/setUser/setUser",
     "pages/views/repertoryInteg/repertoryInteg",
     "pages/views/whiteGetrecord/whiteGetrecord",
-    "pages/views/redGetRecord/redGetRecord"
+    "pages/views/redGetRecord/redGetRecord",
+    "pages/views/txRecord/txRecord",
+    "pages/views/expenseRecord/expenseRecord",
+    "pages/views/transferPost/transferPost",
+    "pages/views/txPost/txPost",
+    "pages/views/myMember/myMember",
+    "pages/views/mySc/mySc",
+    "pages/views/yqyl/yqyl"
   ],
   "window": {
     "backgroundTextStyle": "light",

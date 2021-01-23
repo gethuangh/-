@@ -1,11 +1,11 @@
-// pages/views/repertoryInteg/repertoryInteg.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    popShow: false,
+    text: ""
   },
 
   /**
@@ -21,11 +21,24 @@ Page({
   onReady: function () {
 
   },
-  // 去充值页面
-  toTransferPost() {
-    wx.navigateTo({
-      url: '../transferPost/transferPost?id=1'
+  // 输入框输入事件
+  textFun(e) {
+    // 把输入的值存起来
+    this.data.text = e.detail.value
+  },
+  //点击提交
+  transferPost() {
+
+    // 显示弹窗
+    this.setData({
+      popShow: true
     })
+    // 三秒后关闭弹窗
+    setTimeout(() => {
+      this.setData({
+        popShow: false
+      })
+    }, 3000);
   },
   /**
    * 生命周期函数--监听页面显示

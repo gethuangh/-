@@ -9,7 +9,7 @@
                 <text>12658.0000</text>
             </view>
         </view>
-        <view class="consume-right">
+        <view class="consume-right" bind:tap="toTransferPost">
             <view class="consume-right-cont flex">
                 <image src="../../images/wallet.png" />
                 <view>充值</view>
@@ -18,15 +18,15 @@
     </view>
     <!-- 记录 -->
     <view class="myWallet-record">
-        <view class="record-tx flex">
+        <view class="record-tx flex" bind:tap="toTxRecord">
             <view>提现记录</view>
             <image src="../../images/you.png" />
         </view>
-        <view class="record-tx flex">
+        <view class="record-tx flex" bind:tap="toWhiteGetRecord">
             <view>白积分获取记录</view>
             <image src="../../images/you.png" />
         </view>
-        <view class="record-tx flex">
+        <view class="record-tx flex" bind:tap="toRedGetRecord">
             <view>红积分转账记录</view>
             <image src="../../images/you.png" />
         </view>

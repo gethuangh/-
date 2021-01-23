@@ -21,7 +21,30 @@ Page({
   onReady: function () {
 
   },
-
+  // 去白积分获取记录
+  toWhiteGetRecord: function () {
+    wx.navigateTo({
+      url: '../whiteGetrecord/whiteGetrecord?id=1'
+    })
+  },
+  // 去红积分转账记录
+  toRedGetRecord: function () {
+    wx.navigateTo({
+      url: '../redGetRecord/redGetRecord?id=1'
+    })
+  },
+  // 去提现记录
+  toTxRecord: function () {
+    wx.navigateTo({
+      url: '../txRecord/txRecord?id=1'
+    })
+  },
+  // 去转账页面
+  toTransferPost() {
+    wx.navigateTo({
+      url: '../transferPost/transferPost?id=1'
+    })
+  },
   /**
    * 生命周期函数--监听页面显示
    */

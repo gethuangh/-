@@ -1,0 +1,19 @@
+<!-- 我的收藏 -->
+<view class="mySc box">
+    <view class="my-item flex" wx:for="{{4}}">
+        <view class="my-left">
+            <image src="../../images/cs.png" />
+        </view>
+        <view class="my-right">
+            <view class="my-right-title">时代花城（上南路88zxczxc</view>
+            <view class="my-right-text">1.5w人收藏丨一周前收藏</view>
+            <view class="my-right-img flex">
+                <image src="../../images/cs.png" wx:for="{{4}}" />
+            </view>
+            <view class="my-right-care flex">
+                <view class="care-item">免费停车</view>
+                <view class="care-item">近地铁</view>
+            </view>
+        </view>
+    </view>
+</view>

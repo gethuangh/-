@@ -112,6 +112,48 @@
 					"id": -1,
 					"name": "红积分获取记录",
 					"pathName": "pages/views/redGetRecord/redGetRecord",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "提现记录",
+					"pathName": "pages/views/txRecord/txRecord",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "消费记录",
+					"pathName": "pages/views/expenseRecord/expenseRecord",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "转账",
+					"pathName": "pages/views/transferPost/transferPost",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "提现",
+					"pathName": "pages/views/txPost/txPost",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "我的成员",
+					"pathName": "pages/views/myMember/myMember",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "我的收藏",
+					"pathName": "pages/views/mySc/mySc",
 					"scene": null
 				}
 			]

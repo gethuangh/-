@@ -48,6 +48,38 @@ Page({
       url: '../repertoryInteg/repertoryInteg?id=1'
     })
   },
+
+  // 去提现记录
+  toTxRecord: function () {
+    wx.navigateTo({
+      url: '../txRecord/txRecord?id=1'
+    })
+  },
+
+  // 去消费记录
+  toExpenseRecord: function () {
+    wx.navigateTo({
+      url: '../expenseRecord/expenseRecord?id=1'
+    })
+  },
+  // 去我的成员
+  toMyMember: function () {
+    wx.navigateTo({
+      url: '../myMember/myMember?id=1'
+    })
+  },
+  // 去我的收藏
+  toMySc: function () {
+    wx.navigateTo({
+      url: '../mySc/mySc?id=1'
+    })
+  },
+  // 去我的收藏
+  toYqyl: function () {
+    wx.navigateTo({
+      url: '../yqyl/yqyl?id=1'
+    })
+  },
   /**
    * 生命周期函数--监听页面显示
    */

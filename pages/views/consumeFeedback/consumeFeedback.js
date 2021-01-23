@@ -28,7 +28,18 @@ Page({
   onShow: function () {
 
   },
- 
+  // 去转账页面
+  toTransferPost() {
+    wx.navigateTo({
+      url: '../transferPost/transferPost?id=1'
+    })
+  },
+  // 去提现页面
+  toTxPost() {
+    wx.navigateTo({
+      url: '../txPost/txPost?id=1'
+    })
+  },
   /**
    * 生命周期函数--监听页面隐藏
    */

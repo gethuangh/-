@@ -1,0 +1,7 @@
+<!-- 邀请有礼 -->
+<view class="yqyl box">
+    <view class="yqyl-img">
+        <image src="../../images/yqyls.png" />
+    </view>
+    <view class="yqyl-btn">邀请好友</view>
+</view>

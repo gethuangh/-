@@ -1,4 +1,4 @@
-// pages/views/repertoryInteg/repertoryInteg.js
+// pages/views/txRecord/txRecord.js
 Page({
 
   /**
@@ -21,12 +21,7 @@ Page({
   onReady: function () {
 
   },
-  // 去充值页面
-  toTransferPost() {
-    wx.navigateTo({
-      url: '../transferPost/transferPost?id=1'
-    })
-  },
+
   /**
    * 生命周期函数--监听页面显示
    */

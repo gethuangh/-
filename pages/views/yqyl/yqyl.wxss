@@ -1,0 +1,32 @@
+.yqyl-img>image {
+    width: 638rpx;
+    height: 840rpx;
+}
+
+.yqyl {
+    text-align: center;
+    padding: 0 58rpx;
+}
+
+.yqyl-img {
+    margin-top: 134rpx;
+}
+
+.yqyl-btn {
+    box-sizing: border-box;
+}
+
+.yqyl-btn {
+    width: 570rpx;
+    height: 90rpx;
+    background: #FFC50A;
+    box-shadow: 0rpx 20rpx 30rpx 0rpx rgba(254, 177, 45, 0.2);
+    border-radius: 45rpx;
+    margin-top: 92rpx;
+    text-align: center;
+    line-height: 90rpx;
+    font-size: 32rpx;
+    font-weight: 500;
+    color: #5B2F04;
+    margin-left: 40rpx;
+}
